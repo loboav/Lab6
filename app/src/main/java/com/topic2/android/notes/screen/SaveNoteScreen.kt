@@ -1,5 +1,4 @@
-package com.topic2.android.notes.screen
-
+package screens
 
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Column
@@ -19,10 +18,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.topic2.android.notes.domain.model.ColorModel
-import com.topic2.android.notes.util.components.NoteColor
 import com.topic2.android.notes.util.fromHex
-
-
+import ui.components.NoteColor
 
 
 @Composable
